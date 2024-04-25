@@ -19,6 +19,7 @@ body {
 
 a{
     color: #fff;
+    
 }
 
 .contenedor {
@@ -161,7 +162,7 @@ Problemas: los textos estan muy separados
 
 
 /* ESTO ES EL FOOTER */
-.contenedor-footer{      
+.contenedor-footer{    
     align-items: center;
     background: rgb(6, 9, 24);
     position: relative;     
@@ -183,7 +184,7 @@ Problemas: los textos estan muy separados
     margin-top: 20px;
     padding: 40px 60px;
     border-top: 2px solid #4c007d;
-   border-bottom: 2px solid #4c007d;
+    border-bottom: 2px solid #4c007d;
     
 }
 
@@ -193,8 +194,27 @@ Problemas: los textos estan muy separados
 }
 
 .contenedor-iconos {
-    display: flex;
+    display: flex; 
+    justify-content: center;  
+    margin-top: 20px;
+    padding: 40px 60px;     
 }
+
+.contenedor-iconos h6{
+    align-self: center;
+    margin-right: 200px;    
+}
+
+.contenedor__icon {
+    display: flex;
+    list-style: none;  
+}
+
+.contenedor__icon img { 
+    margin: 20px; 
+    width: 40px;
+    height: 40px;
+} 
 
 
 
