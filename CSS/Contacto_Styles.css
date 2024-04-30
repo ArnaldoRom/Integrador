@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -11,7 +10,7 @@ a{
     
 } 
 
-/*--------------- ESTILOS DEL HEADER ------------------*/
+/*--------------- ESTILOS DEL HEADER DE SECCION CONTACTO ------------------*/
 
 .contenedor {
     display: flex;
@@ -52,84 +51,12 @@ a{
     
 }
 
-/*-------------- ESTILOS DEL MAIN -------------------*/
-
-.contenedor-principal {
-    background-image:url(https://images5.alphacoders.com/104/1041799.png);
-    background-size: cover;
-    
-    display: flex;
-    position: fixed;           
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;   
-}
-
-.contenedor__element {
-    text-align: center; 
-    font-weight: 900;
-}
-
-.contenedor__element p {
-    font-size: 100px;
-    margin-bottom: 0;
-    color: #fff;
-    
-}
-
-.contenedor__boton{
-    margin: 50px;
-    display: flex;
-}
-
-.contenedor__boton h3{
-    font-size: 40px;
-    border: #fff solid 3px;
-    border-radius: 5px;
-    margin: 0px 10px;
-}
-
-.contenedor__boton h3:hover{
-    transition: all 400ms ease 0.2s;
-    background: black;    
-}
-
-/*------------  ESTILOS DEL SECCION CARRUCEL ---------*/
-
-.contenedor__carrucel {
-    display: flex;
-    justify-content: center;
-    background: rgb(6, 9, 24);
-    position: relative;
-    z-index: 10;
-    width: 100%;
-    top:100vh;
-    
-    /* esto esta pra hacer espacio donde iria el carrucel - BORRAR DESPUES */
-    
-    width: 100%;  
-    height: 100vh; 
-    text-align: center;
-    flex-direction: column;
-}
-
-/* Esto tambien borrar es el texto de decoracion */
-
-.contenedor__carrucel h1 {
-    font-size: 100px;
-    margin-bottom: 0;
-    color: #fff;
-}
-
-/*----------- ESTILOS DEL SECCION SOBRE NOSOTROS ---------*/
+/*----------- ESTILOS DEL FORMULARIO DE SECCION CONTACTO ---------*/
 
 .contenedor__sobrenosostros{
     display: flex;
     justify-content: center;
-    background: rgb(6, 9, 24);
-    position: relative;
+    background: rgb(6, 9, 24);    
     z-index: 10;
     width: 100%;
     top:100vh;  
@@ -149,12 +76,11 @@ a{
 }
 
 
-/*------------------ ESTILOS DEL FOOTER ---------------------*/
+/*------------------ ESTILOS DEL FOOTER DE SECCION CONTACTO---------------------*/
 
 .contenedor-footer{    
     align-items: center;
-    background: rgb(6, 9, 24);
-    position: relative;     
+    background: rgb(6, 9, 24);       
     z-index: 10;
     width: 100%;
     top: 100vh;    
@@ -204,26 +130,3 @@ a{
     width: 40px;
     height: 40px;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
