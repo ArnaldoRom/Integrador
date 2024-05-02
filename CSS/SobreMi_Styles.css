@@ -9,65 +9,6 @@ a{
     color: #fff;
     
 } 
-/*estilo para las cartas de los integrantes */
-.contenedor-carta{
-    width: 100%;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-    padding-left: 10px;
-    
-}
-
-#titulo-contendor-carta{
-    margin-top: 20px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 900;
-    
-}
-
-.contenedor-carta .carta{
-  width: 330px;
-  height: 430px;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
-  text-align: center;
-  transition: all 0.25s;
-  margin: 10px;
-  background-color: #fff;
-}
-
-/* No toma el efecto de forma idividual no se por que*/
-.contenedor-carta .carta #personaje-l:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(33, 25, 141, 0.2);
-  }
-
-  .contenedor-carta .carta #personaje-kira:hover{
-    transform: translateX(-15px);
-    box-shadow: 0 12px 16px rgba(182, 7, 7, 0.2);
-  }
-  .carta h2{
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 16px;
-    font-weight: 600;
-  }
-  
-  .contenedor-carta .carta img{
-    width: 330px;
-    height: 220px;
-  }
-
-  .contenedor .card p{
-    margin: 10px;
-    padding: 0;
-    font-size: 16px;
-    font-weight: 300;
-  }
 
 /*--------------- ESTILOS DEL HEADER DE SECCION SOBRE NOSOTROS -------------------*/
 
@@ -110,28 +51,127 @@ a{
     
 }
 
-/*----------- ESTILOS DEL SECCION SOBRE NOSOTROS ---------*/
+/*----------- ESTILOS DEL SECCION SOBRE NOSOTROS
+   
+---------*/
 
 .contenedor__sobrenosostros{
     display: flex;
-    justify-content: center;
     background: rgb(6, 9, 24);     
     width: 100%;
     top:100vh;  
-
-   /* esto esta pra hacer espacio donde iria una reseña - BORRAR DESPUES */
     
+
     width: 100%vh;  
     height: 100vh; 
-    text-align: center;
     flex-direction: column;
 }
-  /* Esto tambien borrar es el texto de decoracion */
-.contenedor__sobrenosostros h1 {
-    font-size: 100px;
-    margin-bottom: 0;
+
+.contenedor__sobrenosotros--contenido{
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+}
+.contenedor__sobrenosotros--parrafos h1 {
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+
+.contenedor__sobrenosotros--contenido img{
+
+    width: 350px;
+    height: 350px;
+    margin-left: 29px;
+}
+.contenedor__sobrenosotros--contenido p{
+    margin-bottom: 40px;
+    color: antiquewhite;
+    
+    font-size: 30px;
+}
+
+.contenedor__sobrenosotros--contenido a{
+    
+}
+
+/*estilo para las cartas de los integrantes */
+.contenedor__integrantes{
+    background-color: rgb(6, 9, 24);
+
+}
+.contenedor__integrantes h1{
     color: #fff;
 }
+.contenedor-carta{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 10px;
+    
+}
+
+#titulo-contendor-carta{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.contenedor-carta .carta{
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.25s;
+  margin: 10px;
+  background-color: #fff;
+}
+
+
+ #personaje-l:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(22, 7, 226, 0.521);
+  }
+
+  #personaje-kira:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(255, 0, 0, 0.521);
+  }
+
+  /*No me toma este efecto*/
+    #personaje-nose:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(248, 223, 0, 0.521);
+  }
+  .carta h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px;
+    font-weight: 600;
+  }
+  
+  .contenedor-carta .carta img{
+    width: 330px;
+    height: 220px;
+  }
+
+  .contenedor .card p{
+    margin: 16px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+
+
+
 
 /*------------------ ESTILOS DEL FOOTER DE SECCION SOBRE NOSOTROS ---------------------*/
 
