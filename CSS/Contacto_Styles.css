@@ -53,27 +53,23 @@ a{
 
 /*----------- ESTILOS DEL FORMULARIO DE SECCION CONTACTO ---------*/
 
-.contenedor__sobrenosostros{
-    display: flex;
-    justify-content: center;
-    background: rgb(6, 9, 24);    
-    z-index: 10;
-    width: 100%;
-    top:100vh;  
-
-   /* esto esta pra hacer espacio donde iria una reseña - BORRAR DESPUES */
-    
+.contenedor__contacto{
+    display: flex;   
+    background: rgb(6, 9, 24);   
     width: 100%vh;  
     height: 100vh; 
-    text-align: center;
-    flex-direction: column;
 }
-  /* Esto tambien borrar es el texto de decoracion */
-.contenedor__sobrenosostros h1 {
-    font-size: 100px;
-    margin-bottom: 0;
-    color: #fff;
+
+.contacto__info{
+    background-color: aquamarine;
+
 }
+
+.contacto__formulario{
+    background-color: #fff;
+
+}
+
 
 
 /*------------------ ESTILOS DEL FOOTER DE SECCION CONTACTO---------------------*/
