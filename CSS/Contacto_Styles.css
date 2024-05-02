@@ -1,8 +1,9 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px;    
     font-family: "Roboto", sans-serif;
-    text-decoration: none;
+    text-decoration: none; 
+    flex-wrap: wrap; /*  NO CREO QUE SEA LA SOLUCION*/       
 }
 
 a{
@@ -13,12 +14,11 @@ a{
 /*--------------- ESTILOS DEL HEADER DE SECCION CONTACTO ------------------*/
 
 .contenedor {
-    display: flex;
+    display: flex;    
     justify-content: center;
     position: sticky;  
     top:2px;
-    width: 100%;
-    z-index: 100;  
+    width: 100%;     
 }
 
 .contenedor__menu {
@@ -54,35 +54,38 @@ a{
 /*----------- ESTILOS DEL FORMULARIO DE SECCION CONTACTO ---------*/
 
 .contenedor-contacto{
-    display: flex;          
-    background: rgb(6, 9, 24);     
+    display:flex;             
+    background-color: rgb(6, 9, 24);     
     width: 100%; 
-    height: 100vh; 
-    justify-content: center;
-    align-items: center; 
-    flex-wrap: wrap;       
+    height: 100vh;    
+    align-items: center;   
+    justify-content: center;  
+    flex-wrap: wrap;      
 }
 
 
 .contenedor__contacto{
-    display: flex;  
-    width: 70%;           
+    display: flex;    
+    width: 60%;           
     background-color: burlywood;
-}
+    flex-wrap: wrap;
+} 
 
 .contacto__info{
     display: flex;
     background-color: aquamarine;
-    padding: 60px;
-    width: 80%; 
+    padding: 30px;
+    width: 50%; 
+    flex: 1;
 }
 
 .contacto__formulario{
-    background-color: #fff;
+    background-color: violet;
     display: flex;
     flex-direction: column;    
-    padding: 100px;
-    width: 80%;   
+    padding: 30px;
+    width: 50%;
+    flex: 1;   
 
 }
 
@@ -95,10 +98,10 @@ a{
 
 /*------------------ ESTILOS DEL FOOTER DE SECCION CONTACTO---------------------*/
 
-.contenedor-footer{    
+.contenedor-footer{     
     align-items: center;
     background: rgb(6, 9, 24);  
-    width: 100vh;      
+    width: auto;      
     color: #fff;      
 }
 
