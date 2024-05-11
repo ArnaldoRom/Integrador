@@ -70,24 +70,41 @@ a{
     flex-wrap: wrap;
 } 
 
-.contacto__info{
+.contacto__info, .contacto__formulario{
     display: flex;
-    background-color: aquamarine;
-    flex-direction: column;
+    background-color:  rgb(6, 9, 24);
+    color:#fff;
+    flex-direction: column;    
     padding: 30px;
     width: 50%; 
     flex: 1;
 }
 
-.contacto__formulario{
+/* .contacto__formulario{
     background-color:  rgb(6, 9, 24);
     display: flex;
     flex-direction: column;    
     padding: 30px;
     width: 50%;
     flex: 1;  
+} */
+
+.contacto__info h3{
+    text-align: center;
+    margin: 30px;
+
 }
 
+.contacto__info div{
+    display: inline-flex;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+.contacto__info img{
+    filter: invert(100%);
+    padding: 0px 20px;    
+}
 .contacto__formulario label {
     padding: 10px 0px;  
     text-align:left;
