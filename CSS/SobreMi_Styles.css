@@ -87,17 +87,12 @@ main{
     border-radius: 25%;
     object-fit: cover;
 }
-.contenedor__sobrenosotros--btn{
-    margin-top: 50px;
-}
 
 .contenedor__sobrenosotros--btn a {
     display: block;
-    width: 100%;
     padding: 10px;
-    background-color: rgb(0, 0, 0.8);
+    background-color: rgb(0, 0, 0.5);
     border-radius: 50px;
-    text-align: center;
     color: #fff;
     font-size: 20px;
   }
