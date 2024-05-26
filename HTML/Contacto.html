@@ -25,7 +25,8 @@
     </nav>
   </header>
 
-  <main class="contenedor-contacto">
+  <main id="main" class="contenedor-contacto">
+    
     <section class="contenedor__contacto">
       <div class="contacto__info">
         <h3> Contactos </h3>
@@ -45,23 +46,24 @@
           <img src="../Img/icon/icons-Ubicacion.png" alt="">
           <p>AV. El centro 5568</p>
         </div>
-
-
       </div>
-      <form class="contacto__formulario">
+      
+      <form id="form" onsubmit="return validar()" class="contacto__formulario">
         <h3> Formulario de Contacto </h3>
-        <label> Nombre </label>
-        <input type="text">
-        <label> Apellido</label>
-        <input type="text">
+        <label> Apellido y Nombre </label>
+        <input type="text" name ="nombre" id="nombre">
+        <label> Telefono </label>
+        <input type="text" name="telefono" id="telefono">
         <label> Email </label>
-        <input type="email">
+        <input type="email" name="email" id="email">
         <label> Mensaje </label>
-        <textarea name="textarea" id="" cols="30" rows="10"></textarea>
-        <button> Enviar </button>
+        <textarea name="textarea" id="textArea" cols="30" rows="10"></textarea>
+        <button type="submit"> Enviar </button>
       </form>
     </section>
   </main>
+
+  <script src="../Formulario.js"></script>
 
   <footer class="contenedor-footer">
     <div class="contenedor-lista">

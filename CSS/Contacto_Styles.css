@@ -63,10 +63,10 @@ a{
     flex-wrap: wrap;      
 }
 
-
 .contenedor__contacto{
-    display: flex;    
-    width: 60%;   
+    display: flex;     
+    width: 60%;    
+    margin: 50px;
     flex-wrap: wrap;
 } 
 
@@ -74,25 +74,16 @@ a{
     display: flex;
     background-color:  rgb(6, 9, 24);
     color:#fff;
-    flex-direction: column;    
+    flex-direction: column;   
+    justify-content: center;    
     padding: 30px;
-    width: 50%; 
+    width: 50%;     
     flex: 1;
 }
-
-/* .contacto__formulario{
-    background-color:  rgb(6, 9, 24);
-    display: flex;
-    flex-direction: column;    
-    padding: 30px;
-    width: 50%;
-    flex: 1;  
-} */
 
 .contacto__info h3{
     text-align: center;
     margin: 30px;
-
 }
 
 .contacto__info div{
@@ -105,6 +96,7 @@ a{
     filter: invert(100%);
     padding: 0px 20px;    
 }
+
 .contacto__formulario label {
     padding: 10px 0px;  
     text-align:left;
@@ -149,13 +141,30 @@ a{
     border: none;
 }
 
+.error {
+    color:red;
+    margin-top : 8px;
+}
+
+.errorInput{
+    border-color:red;
+    box-shadow: 0 0px 20px red, inset 0 0px 10px red;
+    outline: none;    
+}
+
+.confirmaFormulario{
+    text-align: center;      
+    color: #fff;
+    margin: auto;
+}
 
 /*------------------ ESTILOS DEL FOOTER DE SECCION CONTACTO---------------------*/
 
-.contenedor-footer{     
+.contenedor-footer{    
     align-items: center;
     background: rgb(6, 9, 24);  
-    width: auto;      
+    width: auto;
+    height: auto;      
     color: #fff;      
 }
 
