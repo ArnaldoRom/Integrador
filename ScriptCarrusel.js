@@ -7,9 +7,9 @@ function girar(contenedor__carrucel) {
         let atras = contenedor__carrucel.querySelector('.atras');
         let adelante = contenedor__carrucel.querySelector('.adelante');
         let img = contenedor__carrucel.querySelector('Img');
-        let tgt = evt.target;
+        let eventTgt = evt.target;
 
-        if (tgt == atras) {
+        if (eventTgt == atras) {
             if (cont > 0) {
                 img.src = contenedorImagenes[cont - 1];
                 cont--;
@@ -17,7 +17,7 @@ function girar(contenedor__carrucel) {
                 img.src = contenedorImagenes[imagene.length - 1];
                 cont = contenedorImagenes.length - 1;
             }
-        } else if (tgt == adelante) {
+        } else if (eventTgt == adelante) {
             if (cont < contenedorImagenes.length - 1) {
                 img.src = contenedorImagenes[cont + 1];
                 cont++;
