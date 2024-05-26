@@ -167,22 +167,64 @@ a{
 /*----------- ESTILOS DEL SECCION SOBRE NOSOTROS ---------*/
 
 .contenedor__sobrenosostros{
-    display: flex;
-    justify-content: center;
+    display: flex;    
     background: rgb(6, 9, 24);
     position: relative;
     z-index: 10;
     width: 100%;
-    top:100vh;  
-
-   /* esto esta pra hacer espacio donde iria una reseña - BORRAR DESPUES */
-    
-    width: 100%vh;  
-    height: 100vh; 
-    text-align: center;
+    top:100vh;
     flex-direction: column;
+    align-items: center;
+    color:#fff;
 }
 
+.servicios-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.cabecera {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.cabecera h2{
+    margin: 20px;
+    font-size:70px;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.servicio div h2{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.servicio.reverse {
+    flex-direction: row-reverse;
+}
+
+.servicio img {
+    max-width: 50%;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.servicio div {
+    max-width: 50%;
+    flex: 1;
+}
 
 /*------------------ ESTILOS DEL FOOTER ---------------------*/
 
