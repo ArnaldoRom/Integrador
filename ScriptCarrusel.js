@@ -1,4 +1,6 @@
-var contenedorImagenes = ['Img/carrusel/ProyectoIMG2.jpg', 'Img/carrusel/ProyectoIMG3.jpg', 'Img/carrusel/ProyectoIMG4.jpg'];
+var contenedorImagenes = ['https://fs.npstatic.com/userfiles/7752400/image/T20_Omni_Screenshot_2-w450.png', 'https://www.tandemsurveys.com/wp-content/uploads/2023/01/saas-layered-img2-2.png',
+'https://fs.npstatic.com/userfiles/7752400/image/5_apps_2-w782.png', 'https://images.ctfassets.net/870hsirrgf0c/69OnE2Vm5AgtV4B5SoGXZj/d92a3e1d3036f3b92a08caabb56e900c/image-1_compressed.png?w=1600&h=1125&q=100'
+];
 cont = 0;
 
 function girar(contenedor__carrucel) {
