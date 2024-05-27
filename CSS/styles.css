@@ -57,7 +57,7 @@ a{
 /*-------------- ESTILOS DEL MAIN -------------------*/
 
 .contenedor-principal {
-    background-image:url(https://images5.alphacoders.com/104/1041799.png);
+    background-image:url();
     background-size: cover;
     
     display: flex;
