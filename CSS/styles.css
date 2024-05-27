@@ -57,7 +57,7 @@ a{
 /*-------------- ESTILOS DEL MAIN -------------------*/
 
 .contenedor-principal {
-    background-image:url();
+    background-image:url(https://cdn.pixabay.com/photo/2022/02/18/06/17/futuristic-7020072_1280.jpg);
     background-size: cover;
     
     display: flex;
